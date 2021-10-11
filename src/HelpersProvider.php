@@ -17,6 +17,7 @@ class HelpersProvider extends ServiceProvider
     {
         Action::macro(name: 'requires', macro: function (string $permission) {
             $this->canSee(value: Auth::user()?->hasAccess(permit: $permission) ?? false);
+            return $this;
         });
     }
 
