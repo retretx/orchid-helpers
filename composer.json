@@ -1,5 +1,5 @@
 {
-    "name": "easy/orchid-helpers",
+    "name": "rrmode/orchid-helpers",
     "description": "A set of useful utilities for Orchid dashboards",
     "require": {
         "php": "^8.0",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Easy\\OrchidHelpers\\": "src/"
+            "Rrmode\\OrchidHelpers\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Easy\\OrchidHelpers\\HelpersProvider"
+                "Rrmode\\OrchidHelpers\\HelpersProvider"
             ]
         }
     }

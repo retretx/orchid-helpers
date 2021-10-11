@@ -1,6 +1,6 @@
 <?php
 
-namespace Easy\OrchidHelpers;
+namespace Rrmode\OrchidHelpers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
