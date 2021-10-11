@@ -1,6 +1,7 @@
 {
     "name": "rrmode/orchid-helpers",
     "description": "A set of useful utilities for Orchid dashboards",
+    "version": "0.1",
     "require": {
         "php": "^8.0",
         "orchid/platform": ">=10.18"
