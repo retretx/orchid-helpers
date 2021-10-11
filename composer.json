@@ -1,0 +1,30 @@
+{
+    "name": "easy/orchid-helpers",
+    "description": "A set of useful utilities for Orchid dashboards",
+    "require": {
+        "php": "^8.0",
+        "orchid/platform": ">=10.18"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Easy\\OrchidHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rrmode",
+            "email": "retretx@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Easy\\OrchidHelpers\\HelpersProvider"
+            ]
+        }
+    }
+}
